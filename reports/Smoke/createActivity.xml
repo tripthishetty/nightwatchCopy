@@ -3,20 +3,20 @@
             failures="0"
             tests="1">
 
-  <testsuite name="createActivity"
-    errors="1" failures="0" hostname="" id="" package="createActivity" skipped="0"
-    tests="1" time="0.1880" timestamp="Mon, 11 Sep 2017 20:22:41 GMT">
+  <testsuite name="Smoke.createActivity"
+    errors="1" failures="0" hostname="" id="" package="Smoke" skipped="0"
+    tests="1" time="0.02000" timestamp="Wed, 13 Sep 2017 20:09:23 GMT">
   
-    <testcase name="Creating an activity" classname="createActivity" time="0.1880" assertions="0">
+    <testcase name="Creating an activity" classname="Smoke.createActivity" time="0.02000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Create Activity / Creating an activity]:
+        Error while running [Smoke / Create Activity / Creating an activity]:
 
   ReferenceError: pause is not defined
-    at Object.Creating an activity (C:\projects\tests\createActivity.js:64:5)
+    at Object.Creating an activity (C:\projects\tests\Smoke\createActivity.js:168:5)
     at Module.call (C:\projects\nightwatch\lib\runner\module.js:62:34)
     at C:\projects\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\projects\nightwatch\node_modules\q\q.js:834:54)

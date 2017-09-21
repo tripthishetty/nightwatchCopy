@@ -3,20 +3,20 @@
             failures="0"
             tests="1">
 
-  <testsuite name="createActivity"
-    errors="1" failures="0" hostname="" id="" package="createActivity" skipped="0"
-    tests="1" time="0.1880" timestamp="Mon, 11 Sep 2017 20:22:41 GMT">
+  <testsuite name="smoke.memberSigninEmailT1"
+    errors="1" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="1" time="0.02200" timestamp="Wed, 20 Sep 2017 14:53:40 GMT">
   
-    <testcase name="Creating an activity" classname="createActivity" time="0.1880" assertions="0">
+    <testcase name="Sign in via email using template 1" classname="smoke.memberSigninEmailT1" time="0.02200" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Create Activity / Creating an activity]:
+        Error while running [Smoke / Member Signin Email T1 / Sign in via email using template 1]:
 
   ReferenceError: pause is not defined
-    at Object.Creating an activity (C:\projects\tests\createActivity.js:64:5)
+    at Object.Sign in via email using template 1 (C:\projects\tests\smoke\memberSigninEmailT1.js:26:5)
     at Module.call (C:\projects\nightwatch\lib\runner\module.js:62:34)
     at C:\projects\nightwatch\lib\runner\testcase.js:70:29
     at _fulfilled (C:\projects\nightwatch\node_modules\q\q.js:834:54)

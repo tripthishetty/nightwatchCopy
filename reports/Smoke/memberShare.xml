@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="0">
+
+  <testsuite name="smoke.memberShare"
+    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="0" time="0.000" timestamp="Wed, 20 Sep 2017 16:56:01 GMT">
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

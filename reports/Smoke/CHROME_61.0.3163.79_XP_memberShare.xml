@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="smoke.memberShare"
+    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="3" time="77.61" timestamp="Wed, 20 Sep 2017 19:24:22 GMT">
+  
+    <testcase name="signIn" classname="smoke.memberShare" time="19.98" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="clickActivity" classname="smoke.memberShare" time="7.895" assertions="0">
+    </testcase>
+  
+    <testcase name="sharing" classname="smoke.memberShare" time="49.73" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

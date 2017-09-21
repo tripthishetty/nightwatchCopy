@@ -1,14 +1,14 @@
 module.exports = {
-  'Signing up via Email using Template 1' : function(driver)
+  'Signing up via Email' : function(driver)
   {
     driver
-    .url(driver.launch_url)
+    .url(driver.globals.userNames.memberURL)
     .windowMaximize("current")
     .waitForElementVisible('body', 2000)
     .useXpath()
-    .click("//div[@class='welcome translucent']/div[2]/a[2]")
+    .click("(//a[contains(text(), 'Create Account')])[2]")
     .pause(1000)
-    .click("//div[@class='desktop-container ng-scope']/div/div[2]/a[1]/div")
+    .click("//div[@class='desktop-container ng-scope']/div/div[1]/a[1]/div")
     .pause(1000)
     .click("//div[@class='desktop-container ng-scope']/div/form/div[1]/input")
     .pause(1000)
@@ -61,7 +61,7 @@ module.exports = {
     .pause(2000)
     .click("(//button[@class='btn login themed-button'])[6]")
     .pause(4000)
-    .saveScreenshot('screenshots/registrationSignupSuccessful.png')
+    .saveScreenshot('screenshots/registrationSignupSuccessfulViaEmail.png')
     .pause(2000)
     .end();
   }
