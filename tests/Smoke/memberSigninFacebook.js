@@ -1,5 +1,5 @@
 module.exports = {
-  'Signing up via Facebook' : function(driver)
+  'Signing in via Facebook' : function(driver)
   {
     driver
     .url(driver.globals.userNames.memberURL)
@@ -21,25 +21,8 @@ module.exports = {
     .pause(2000)
     .click("//button[@value='1']")
     .pause(4000)
-    .keys(driver.Keys.ENTER)
-    .pause(2000)
-    .keys(driver.Keys.ENTER)
-    .pause(2000)
-    .keys(driver.Keys.ENTER)
-    .pause(4000)
-    .click("(//form[@id='edit_member'])[6]/div[2]/input")
-    .pause(2000)
-    .setValue("(//form[@id='edit_member'])[6]/div[5]/input", driver.globals.userNames.zipCode)
-    .pause(2000)
-    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/input", driver.globals.userNames.birthDay)
-    .pause(2000)
-    .click("(//button[@class='btn login themed-button'])[6]")
-    .pause(4000)
-    .saveScreenshot('screenshots/registrationSignupSuccessfulViaFacebook.png')
+    .saveScreenshot('screenshots/registrationSigninSuccessfulViaFacebook.png')
     .pause(2000)
     .end();
   }
-
-
-
 }

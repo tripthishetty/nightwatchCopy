@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Smoke.memberSigninTwitter"
+    errors="0" failures="0" hostname="" id="" package="Smoke" skipped="0"
+    tests="1" time="26.15" timestamp="Mon, 25 Sep 2017 20:09:55 GMT">
+  
+    <testcase name="Signing up via Twitter" classname="Smoke.memberSigninTwitter" time="26.15" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

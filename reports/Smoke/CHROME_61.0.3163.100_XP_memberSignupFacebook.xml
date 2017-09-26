@@ -5,9 +5,9 @@
 
   <testsuite name="smoke.memberSignupFacebook"
     errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
-    tests="1" time="56.16" timestamp="Thu, 21 Sep 2017 20:50:30 GMT">
+    tests="1" time="68.44" timestamp="Fri, 22 Sep 2017 16:17:16 GMT">
   
-    <testcase name="Signing up via Facebook" classname="smoke.memberSignupFacebook" time="56.16" assertions="1">
+    <testcase name="Signing up via Facebook" classname="smoke.memberSignupFacebook" time="68.44" assertions="1">
 
     
     </testcase>

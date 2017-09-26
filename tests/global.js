@@ -9,9 +9,9 @@ var userNames = {
   adminURL: 'https://admin.staging.socialmedialink.com',
   adminEmail: 'tripsprint88staging5@yopmail.com',
   adminPassword: 'General123$',
-  facebookEmail: 'tripthi.testmember19@socialmedialink.com',
+  facebookEmail: 'bozlspg_chaiescu_1454600113@tfbnw.net',
   facebookPass: 'general1234',
-  twitterEmail: 'tripthishetty20@gmail.com',
+  twitterEmail: 'sukada.ramakrishna@socialmedialink.com',
   twitterPass: 'general1234',
   instagramUserName: 'tripthi.shetty',
   instagramPass: 'abcd1234'

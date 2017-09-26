@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Smoke.memberSignupTwitter"
+    errors="1" failures="0" hostname="" id="" package="Smoke" skipped="0"
+    tests="1" time="49.93" timestamp="Fri, 22 Sep 2017 20:41:53 GMT">
+  
+    <testcase name="Signing up via Twitter" classname="Smoke.memberSignupTwitter" time="49.93" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;(//form[@id='edit_member'])[6]/div[1]/input&quot; using: xpath
+    at Object.Signing up via Twitter (C:\projects\tests\Smoke\memberSignupTwitter.js:24:6)
+    at Module.call (C:\projects\nightwatch\lib\runner\module.js:62:34)
+    at C:\projects\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\projects\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\projects\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\projects\nightwatch\node_modules\q\q.js:796:13)
+    at C:\projects\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\projects\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\projects\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
