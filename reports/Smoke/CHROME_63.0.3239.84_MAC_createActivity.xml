@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="smoke.createActivity"
+    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="1" time="291.2" timestamp="Tue, 02 Jan 2018 21:33:49 GMT">
+  
+    <testcase name="Creating an activity" classname="smoke.createActivity" time="291.2" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

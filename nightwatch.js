@@ -1,1 +1,1 @@
-require('C:/projects/nightwatch/bin/runner.js');
+require('/Users/tripthi/Desktop/Nightwatch/nightwatch/bin/runner.js');

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="smoke.memberShare"
+    errors="0" failures="1" hostname="" id="" package="smoke" skipped="3"
+    tests="5" time="17.51" timestamp="Tue, 02 Jan 2018 22:39:45 GMT">
+  
+    <testcase name="signIn" classname="smoke.memberShare" time="16.95" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="acceptActivity" classname="smoke.memberShare" time="0.5560" assertions="1">  <failure message="Testing if element &lt;//div[@class='content']/div[2]&gt; contains text: &quot;Sharing Tools Activity&quot;.">    at Object.acceptActivity (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberShare.js:84:11)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="fillShipping" classname="smoke.memberShare">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="clickActivity" classname="smoke.memberShare">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="sharing" classname="smoke.memberShare">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

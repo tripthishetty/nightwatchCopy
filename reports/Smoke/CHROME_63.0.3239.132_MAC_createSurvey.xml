@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="3">
+
+  <testsuite name="smoke.createSurvey"
+    errors="2" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="3" time="138.9" timestamp="Wed, 24 Jan 2018 17:21:12 GMT">
+  
+    <testcase name="signIn" classname="smoke.createSurvey" time="14.02" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="clickAdminLinks" classname="smoke.createSurvey" time="99.05" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="missionLogic" classname="smoke.createSurvey" time="25.83" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;//div[@ng-model='autoupdated-text']&quot; using: xpath
+    at Object.clickAdminLinks (/Users/tripthi/Desktop/Nightwatch/tests/smoke/createSurvey.js:46:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@ng-model='autoupdated-text']&quot; using: xpath
+    at Object.clickAdminLinks (/Users/tripthi/Desktop/Nightwatch/tests/smoke/createSurvey.js:47:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
