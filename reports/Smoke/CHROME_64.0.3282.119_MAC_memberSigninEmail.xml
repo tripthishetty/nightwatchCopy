@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="smoke.memberSigninEmail"
+    errors="1" failures="1" hostname="" id="" package="smoke" skipped="0"
+    tests="1" time="16.08" timestamp="Tue, 30 Jan 2018 15:17:10 GMT">
+  
+    <testcase name="Sign in via email using template 1" classname="smoke.memberSigninEmail" time="16.08" assertions="2">
+
+      <failure message="Testing if element &lt;//div[@class='content-offer js-content-offer']/h1&gt; contains text: &quot;Offers for You&quot;. Element could not be located.">    at Object.Sign in via email using template 1 (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberSigninEmail.js:23:13)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;//div[@class='content-offer js-content-offer']/h1&quot; using: xpath
+    at F.command (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/core/queue.js:73:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

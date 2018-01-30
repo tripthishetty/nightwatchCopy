@@ -29,23 +29,48 @@ var clickAdminLinks = function(driver)
      .click("//a[@class='test-nav-hubs']")
     .pause(2000)
     .assert.containsText("//h1[@class='pull-left']", "Mission Hubs")
+    //add mission hub
     .click("//a[@class='btn btn-default btn-icon-add test-hub-new']")
     .pause(500)
+    //input mission name
     .click("//div[@id='new_mission_hub']/div/div/div[2]/div/div/input")
     .pause(500)
     .setValue("//div[@id='new_mission_hub']/div/div/div[2]/div/div/input", "Survey smoke")
     .pause(1000)
+    //click create button
     .click("//div[@class='modal-footer ng-scope']/button")
-    .pause(500)
+    .pause(1000)
+    //add survey
     .click("//ul[@class='q-builder']/li[1]")
-    .pause(1000)
+    .pause(4000)
+    //click on the survey link
     .click("//a[@class='rowclick test-hub-structure-item-link ng-binding']")
-    .pause(1000)
+    .pause(3000)
+    //click survey name edit button
     .click("//button[@class='btn-edit']")
     .pause(500)
-    .clearValue("//div[@ng-model='autoupdated-text']")
-    .setValue("//div[@ng-model='autoupdated-text']","survey_name")
+    //input survey name
+    .clearValue("//input[@ng-show='isEdit']")
+    .setValue("//input[@ng-show='isEdit']","survey smoke name")
     .pause(500)
+    .keys(driver.Keys.ENTER)
+    .pause(500)
+    //add reward points
+    .click("(//div[@class='q-list-link q-list-reward'])[1]")
+    .click("//input[@class='form-control reward-points-field ng-pristine ng-valid']")
+    .setValue("//input[@class='form-control reward-points-field ng-pristine ng-valid']", "10")
+    .pause(500)
+    .click("(//button[@class='btn btn-primary q-list-done'])[1]")
+    //add badge
+    .click("(//div[@class='q-list-link q-list-reward'])[2]")
+    .setValue("//input[@class='js-badge-image-field']", driver.globals.userNames.path + "surveyBadge.jpg")
+    .pause(2000)
+    .click("//textarea[@class='form-control q-list-badge-name test-activity-badge-name ng-pristine ng-valid placeholder']")
+    .setValue("//textarea[@class='form-control q-list-badge-name test-activity-badge-name ng-pristine ng-valid placeholder']","survey badge name")
+    .pause(500)
+    .click("(//button[@class='btn btn-primary q-list-done'])[1]")
+    .pause(1000)
+    .saveScreenshot("screenshots/pointsBadgeAdded.png")
     //Single answer question
     .click("//li[@class='js-draggable test-survey-new-single_answer ui-draggable']")
     .pause(500)
@@ -195,7 +220,7 @@ var clickAdminLinks = function(driver)
     .pause(500)
     .click("//button[@class='btn button test-question-create']")
     .pause(500)
-     //Number Type question
+    //Number Type question
     .click("//li[@class='test-question-new test-question-new-numbers']")
     .pause(1000)
     .click("//textarea[@rows='1']")
