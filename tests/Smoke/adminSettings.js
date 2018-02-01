@@ -17,7 +17,7 @@ var signIn =  function(driver)
     .pause(1000)
     .click("//input[@class='btn btn-login test-login-button']")
     .pause(2000)
-    .saveScreenshot('screenshots/siginConfirmAdmin.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/siginConfirmAdmin.png')
     .pause(2000)
     //click Administration
     .click("(//a[@class='test-nav-config'])[2]")
@@ -342,7 +342,7 @@ var saveSettings =  function(driver)
     .execute('scrollTo(100,100)')
     .click("//div[@class='tabs-buttons']/a[2]")
     .pause(2000)
-    .saveScreenshot('screenshots/savedAdminSettings.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/savedAdminSettings.png')
     .pause(1000)
     .end();
   }

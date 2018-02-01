@@ -21,7 +21,7 @@ module.exports = {
     .pause(2000)
     .click("//button[@value='1']")
     .pause(4000)
-    .saveScreenshot('screenshots/registrationSigninSuccessfulViaFacebook.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/registrationSigninSuccessfulViaFacebook.png')
     .pause(2000)
     .end();
   }

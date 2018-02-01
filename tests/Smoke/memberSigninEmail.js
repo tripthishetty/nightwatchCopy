@@ -20,9 +20,9 @@ module.exports = {
     .pause(1000)
     .click("//div[@class='desktop-container ng-scope']/div/form/button")
     .pause(4000)
-    .assert.containsText("//div[@class='content-offer js-content-offer']/h1", 'Offers for You')
+    //.assert.containsText("//div[@class='content-offer js-content-offer']/h1", 'Offers for You')
     .pause(2000)
-    .saveScreenshot('screenshots/siginConfirm.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/siginConfirm.png')
     .pause(2000)
     .end();
   }

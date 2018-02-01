@@ -35,7 +35,7 @@ module.exports = {
     .pause(2000)
     .click("(//button[@class='btn login themed-button'])[6]")
     .pause(4000)
-    .saveScreenshot('screenshots/registrationSignupSuccessfulViaFacebook.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/registrationSignupSuccessfulViaFacebook.png')
     .pause(2000)
     .end();
   }

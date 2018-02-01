@@ -1,26 +1,223 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="16"
             failures="0"
-            tests="3">
+            tests="9">
 
   <testsuite name="smoke.accountsThemeUsersContactAssets"
-    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
-    tests="3" time="51.29" timestamp="Tue, 30 Jan 2018 20:04:02 GMT">
+    errors="16" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="9" time="406.1" timestamp="Wed, 31 Jan 2018 23:38:00 GMT">
   
-    <testcase name="signIn" classname="smoke.accountsThemeUsersContactAssets" time="18.90" assertions="2">
+    <testcase name="signIn" classname="smoke.accountsThemeUsersContactAssets" time="23.85" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="accounts" classname="smoke.accountsThemeUsersContactAssets" time="6.606" assertions="0">
+    <testcase name="accounts" classname="smoke.accountsThemeUsersContactAssets" time="8.191" assertions="0">
     </testcase>
   
-    <testcase name="theme" classname="smoke.accountsThemeUsersContactAssets" time="25.78" assertions="0">
+    <testcase name="theme" classname="smoke.accountsThemeUsersContactAssets" time="27.84" assertions="0">
+    </testcase>
+  
+    <testcase name="users" classname="smoke.accountsThemeUsersContactAssets" time="13.50" assertions="0">
+    </testcase>
+  
+    <testcase name="confirmAdminusers" classname="smoke.accountsThemeUsersContactAssets" time="93.46" assertions="0">
+    </testcase>
+  
+    <testcase name="contactInfo" classname="smoke.accountsThemeUsersContactAssets" time="4.111" assertions="0">
+    </testcase>
+  
+    <testcase name="assets" classname="smoke.accountsThemeUsersContactAssets" time="40.59" assertions="0">
+    </testcase>
+  
+    <testcase name="verifyAdminLevelRestrictions" classname="smoke.accountsThemeUsersContactAssets" time="95.59" assertions="0">
+    </testcase>
+  
+    <testcase name="memberSideVerify" classname="smoke.accountsThemeUsersContactAssets" time="98.92" assertions="0">
     </testcase>
   
 
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;//textarea[@id='policy_text'])[1]&quot; using: xpath
+    at Object.assets (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:234:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//textarea[@id='policy_text'])[2]&quot; using: xpath
+    at Object.assets (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:245:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//textarea[@id='policy_text'])[3]&quot; using: xpath
+    at Object.assets (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:256:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//textarea[@id='policy_text'])[4]&quot; using: xpath
+    at Object.assets (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:267:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;#/footer/disclosure'])[1]&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:364:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;(//i[@class='fa fa-times dialog-close'])[3]&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:367:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;(//div[contains(text(), 'Email')])[6]&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:395:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@class='desktop-container ng-scope']/div/form/div[1]/input&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:397:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@class=&quot;desktop-container ng-scope&quot;]/div/form/div[1]/input&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:399:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@class='desktop-container ng-scope']/div/form/div[2]/input&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:401:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@class='desktop-container ng-scope']/div/form/div[2]/input&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:403:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//div[@class='desktop-container ng-scope']/div/form/button&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:405:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//a[@href='#footer/contact_us']&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:412:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//textarea[@placeholder='type your message here']&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:414:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//textarea[@placeholder='type your message here']&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:415:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//button[@class='btn btn-primary']&quot; using: xpath
+    at Object.memberSideVerify (/Users/tripthi/Desktop/Nightwatch/tests/smoke/accountsThemeUsersContactAssets.js:417:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+    </system-err>
   
 
   

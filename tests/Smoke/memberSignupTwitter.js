@@ -1,3 +1,4 @@
+
 module.exports = {
   'Signing up via Twitter' : function(driver)
   {
@@ -45,7 +46,7 @@ module.exports = {
     .pause(2000)
     .click("(//button[@class='btn login themed-button'])[6]")
     .pause(4000)
-    .saveScreenshot('screenshots/registrationSignupSuccessfulViaTwitter.png')
+    .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/registrationSignupSuccessfulViaTwitter.png')
     .pause(2000)
     .end();
   }

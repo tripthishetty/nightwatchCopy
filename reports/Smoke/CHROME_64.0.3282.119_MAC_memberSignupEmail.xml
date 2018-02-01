@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="2"
             failures="0"
             tests="1">
 
   <testsuite name="smoke.memberSignupEmail"
-    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
-    tests="1" time="71.21" timestamp="Tue, 30 Jan 2018 17:20:04 GMT">
+    errors="2" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="1" time="105.9" timestamp="Wed, 31 Jan 2018 23:25:41 GMT">
   
-    <testcase name="Signing up via Email" classname="smoke.memberSignupEmail" time="71.21" assertions="1">
+    <testcase name="Signing up via Email" classname="smoke.memberSignupEmail" time="105.9" assertions="1">
 
     
     </testcase>
   
 
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;(//form[@id='edit_member'])[6]/div[6]/div/input&quot; using: xpath
+    at Object.Signing up via Email (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberSignupEmail.js:54:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;(//form[@id='edit_member'])[6]/div[6]/div/input&quot; using: xpath
+    at Object.Signing up via Email (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberSignupEmail.js:56:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+    </system-err>
   
 
   

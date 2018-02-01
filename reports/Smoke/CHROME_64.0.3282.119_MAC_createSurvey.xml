@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="2"
             failures="0"
             tests="3">
 
   <testsuite name="smoke.createSurvey"
-    errors="1" failures="0" hostname="" id="" package="smoke" skipped="0"
-    tests="3" time="98.35" timestamp="Tue, 30 Jan 2018 20:12:11 GMT">
+    errors="2" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="3" time="118.2" timestamp="Thu, 01 Feb 2018 00:32:20 GMT">
   
-    <testcase name="signIn" classname="smoke.createSurvey" time="12.27" assertions="1">
+    <testcase name="signIn" classname="smoke.createSurvey" time="18.96" assertions="1">
 
     
     </testcase>
   
-    <testcase name="clickAdminLinks" classname="smoke.createSurvey" time="71.92" assertions="1">
+    <testcase name="clickAdminLinks" classname="smoke.createSurvey" time="82.40" assertions="1">
 
     
     </testcase>
   
-    <testcase name="missionLogic" classname="smoke.createSurvey" time="14.16" assertions="1">
+    <testcase name="missionLogic" classname="smoke.createSurvey" time="16.81" assertions="1">
 
     
     </testcase>
@@ -27,6 +27,17 @@
     <system-err>
       ERROR: Unable to locate element: &quot;//textarea[@class='q-field test-question-answer-0 placeholder']&quot; using: xpath
     at Object.clickAdminLinks (/Users/tripthi/Desktop/Nightwatch/tests/smoke/createSurvey.js:82:6)
+    at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &quot;//td[@class='active day']/preceding-sibling::td[@class='day'][1]&quot; using: xpath
+    at Object.missionLogic (/Users/tripthi/Desktop/Nightwatch/tests/smoke/createSurvey.js:250:6)
     at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
     at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)
