@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="smoke.memberSigninEmail"
+    errors="0" failures="0" hostname="" id="" package="smoke" skipped="0"
+    tests="1" time="33.88" timestamp="Thu, 01 Feb 2018 21:54:06 GMT">
+  
+    <testcase name="Sign in via email using template 1" classname="smoke.memberSigninEmail" time="33.88" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

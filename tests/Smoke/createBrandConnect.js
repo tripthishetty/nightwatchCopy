@@ -21,6 +21,48 @@ var signIn =  function(driver)
     .pause(4000)
   }
   
+var firstSignin = function(driver)
+{
+    driver
+    .useXpath()
+    .click("(//form[@id='edit_member'])[6]/div[2]/input")
+    .pause(1000)
+    //add first name
+    .setValue("(//form[@id='edit_member'])[6]/div[2]/input", driver.globals.userNames.memberFirstName)
+    .pause(2000)
+    .click("(//form[@id='edit_member'])[6]/div[3]/input")
+    .pause(1000)
+    //add last name
+    .setValue("(//form[@id='edit_member'])[6]/div[3]/input", driver.globals.userNames.memberLastName)
+    .pause(2000)
+    .click("(//form[@id='edit_member'])[6]/div[5]/input")
+    .pause(1000)
+    //add zipcode
+    .setValue("(//form[@id='edit_member'])[6]/div[5]/input", driver.globals.userNames.zipCode)
+    .pause(1000)
+    //select month
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div/select")
+    .pause(1000)
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div/select/option[2]")
+    .pause(2000)
+    //select day
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div[2]/input")
+    .pause(1000)
+    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/div[2]/input","15")
+    .pause(1000)
+    //select year
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div[3]/input")
+    .pause(500)
+    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/div[3]/input","1991")
+    .pause(1000)
+    //select gender
+    .click("(//form[@id='edit_member'])[6]/div[7]/select")
+    .pause(1000)
+    .click("(//form[@id='edit_member'])[6]/div[7]/select/option[2]")
+    .pause(2000)
+    .click("(//button[@class='btn login themed-button'])[6]")
+    .pause(4000)
+}
 var createBrandConnectTopic = function(driver)
 {
     driver
@@ -70,6 +112,7 @@ var createBrandConnectDiscussion = function(driver)
 }
 module.exports={
   signIn: signIn,
+  firstSignin: firstSignin,
 createBrandConnectTopic: createBrandConnectTopic,
 createBrandConnectDiscussion: createBrandConnectDiscussion
 }

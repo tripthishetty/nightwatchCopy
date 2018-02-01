@@ -3,11 +3,11 @@
             failures="0"
             tests="1">
 
-  <testsuite name="smoke.memberSignUpTwitter"
+  <testsuite name="smoke.memberSignupTwitter"
     errors="1" failures="0" hostname="" id="" package="smoke" skipped="0"
-    tests="1" time="48.39" timestamp="Tue, 30 Jan 2018 17:05:38 GMT">
+    tests="1" time="52.56" timestamp="Thu, 01 Feb 2018 18:02:25 GMT">
   
-    <testcase name="Signing up via Twitter" classname="smoke.memberSignUpTwitter" time="48.39" assertions="1">
+    <testcase name="Signing up via Twitter" classname="smoke.memberSignupTwitter" time="52.56" assertions="1">
 
     
     </testcase>
@@ -16,7 +16,7 @@
   
     <system-err>
       ERROR: Unable to locate element: &quot;(//form[@id='edit_member'])[6]/div[1]/input&quot; using: xpath
-    at Object.Signing up via Twitter (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberSignUpTwitter.js:24:6)
+    at Object.Signing up via Twitter (/Users/tripthi/Desktop/Nightwatch/tests/smoke/memberSignupTwitter.js:25:6)
     at Module.call (/Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/module.js:62:34)
     at /Users/tripthi/Desktop/Nightwatch/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/tripthi/Desktop/Nightwatch/nightwatch/node_modules/q/q.js:834:54)

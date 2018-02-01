@@ -36,25 +36,40 @@ module.exports = {
     .pause(4000)
     //.url("https://tripsprint88staging.staging.socialmedialink.com/members/edit#/")
     .window_handles(function(result) {
-     var handle = result.value[1];
+    var handle = result.value[1];
     this.switchWindow(handle);})
     .pause(2000)
     .click("(//form[@id='edit_member'])[6]/div[2]/input")
     .pause(1000)
+    //add first name
     .setValue("(//form[@id='edit_member'])[6]/div[2]/input", driver.globals.userNames.memberFirstName)
     .pause(2000)
     .click("(//form[@id='edit_member'])[6]/div[3]/input")
     .pause(1000)
+    //add last name
     .setValue("(//form[@id='edit_member'])[6]/div[3]/input", driver.globals.userNames.memberLastName)
     .pause(2000)
     .click("(//form[@id='edit_member'])[6]/div[5]/input")
     .pause(1000)
+    //add zipcode
     .setValue("(//form[@id='edit_member'])[6]/div[5]/input", driver.globals.userNames.zipCode)
-    .pause(2000)
-    .click("(//form[@id='edit_member'])[6]/div[6]/div/input")
     .pause(1000)
-    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/input", driver.globals.userNames.birthDay)
+    //select month
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div/select")
+    .pause(1000)
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div/select/option[2]")
     .pause(2000)
+    //select day
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div[2]/input")
+    .pause(1000)
+    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/div[2]/input","15")
+    .pause(1000)
+    //select year
+    .click("(//form[@id='edit_member'])[6]/div[6]/div/div[3]/input")
+    .pause(500)
+    .setValue("(//form[@id='edit_member'])[6]/div[6]/div/div[3]/input","1991")
+    .pause(1000)
+    //select gender
     .click("(//form[@id='edit_member'])[6]/div[7]/select")
     .pause(1000)
     .click("(//form[@id='edit_member'])[6]/div[7]/select/option[2]")
