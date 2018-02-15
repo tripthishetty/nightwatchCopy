@@ -78,7 +78,6 @@ module.exports = {
     .pause(4000)
     .saveScreenshot('screenshots/sprint'+driver.globals.userNames.sprint+'/registrationSignupSuccessfulViaEmail.png')
     .pause(2000)
-    .end();
   }
 
 
